@@ -23,6 +23,7 @@
 
 # Always restart percona on configuration changes
 default["percona"]["auto_restart"] = true
+default["percona"]["version"] = "5.5"
 
 case node["platform_family"]
 when "debian"
